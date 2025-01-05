@@ -1,4 +1,4 @@
-package Java;
+package Java.logicalCoding;
 
 public class SeriesNumber
 {
@@ -7,7 +7,7 @@ public class SeriesNumber
         int a=-1;
         int b=1;
         int c;
-        System.out.println("Series Number is :: ");
+        System.out.print("Series Number is :: ");
         for (int i = 0; i <=10 ; i++)
         {
         c=a+b;
