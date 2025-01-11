@@ -4,10 +4,10 @@ public class Min_Max_In_Array
 {
     public static void main(String[] args)
     {
-        int []a={100,20,99,0};
+    int []a={100,20,99,0};
     int max=a[0];
     int min=a[0];
-        for (int i = 0; i <a.length ; i++)
+    for (int i = 0; i <a.length ; i++)
         {
             if (a[i] >max)
             {
