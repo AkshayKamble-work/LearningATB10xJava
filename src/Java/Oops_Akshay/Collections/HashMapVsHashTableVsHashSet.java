@@ -1,8 +1,6 @@
-package Java.logicalCoding;
+package Java.Oops_Akshay.Collections;
 
-import java.util.HashMap;
-import java.util.Hashtable;
-import java.util.Map;
+import java.util.*;
 
 public class HashMapVsHashTableVsHashSet {
 
@@ -43,6 +41,6 @@ public class HashMapVsHashTableVsHashSet {
         // Printing the Size and Element of HashSet
         System.out.println("HashSet Size: " + hs.size());
         System.out.println("Elements in HashSet: " + hs);
-
     }
+
 }
