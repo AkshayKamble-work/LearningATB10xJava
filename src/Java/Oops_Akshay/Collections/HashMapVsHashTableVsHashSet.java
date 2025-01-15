@@ -23,6 +23,7 @@ public class HashMapVsHashTableVsHashSet {
         hm.put(104, "Amit");
         hm.put(101, "Vijay");
         hm.put(102, "Rahul");
+
         System.out.println("-----------Hash map-----------");
         for (Map.Entry m : hm.entrySet()) {
             System.out.println(m.getKey() + " " + m.getValue());

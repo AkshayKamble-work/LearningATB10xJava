@@ -5,7 +5,7 @@ public class Vowel
     public static void main(String[] args) {
 
         int Vcount=0; int Ccount=0;
-        String str="I love Tom and Jerry";
+        String str="I love Tom & Jerry";
         str=str.toLowerCase();
         for (int i = 0; i <str.length() ; i++)
         {

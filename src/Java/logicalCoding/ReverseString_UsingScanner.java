@@ -12,5 +12,20 @@ public class ReverseString_UsingScanner {
         StringBuilder sb=new StringBuilder(input);
         String output=sb.reverse().toString();
         System.out.println(output);
+        test();// calling test method
     }
+
+    public static void test()
+    {
+        String input;
+        System.out.println("Try input to get output");
+        Scanner sc=new Scanner(System.in);
+        input=sc.nextLine();
+
+        StringBuilder sb=new StringBuilder (input);
+        String output=sb.reverse().toString();
+
+        System.out.println(output);
+    }
+
 }
