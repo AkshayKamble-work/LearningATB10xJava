@@ -20,6 +20,8 @@ class Car {
 class Main {
     public static void main(String[] args) {
         Car myCar = new Car(); // Calls the default constructor
+        System.out.println(myCar.brand);
+        System.out.println(myCar.year);
     }
 }
 
