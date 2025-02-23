@@ -1,5 +1,6 @@
 package CollectionFramework.List.List;
 
+import java.util.Enumeration;
 import java.util.List;
 import java.util.Vector;
 
@@ -8,7 +9,7 @@ public class VectorTest {
 
     public static void main(String[] args) {
 
-        List myvector = new Vector();
+        Vector myvector = new Vector();
         myvector.add("Black");
         myvector.add("White");
         myvector.add("Blue");
