@@ -1,12 +1,10 @@
 package InterviewQuestions;
 
-public class StringCompressor
-{
-    public static String compressString(String input) {
+public class CharCounts {
+    public static String Stringcount(String input) {
         if (input == null || input.isEmpty()) {
             return "";
         }
-
         StringBuilder compressed = new StringBuilder();
         int count = 1;
 
@@ -18,7 +16,6 @@ public class StringCompressor
                 count = 1;
             }
         }
-
         compressed.append(count).append(input.charAt(input.length() - 1));
 
         return compressed.toString();
@@ -26,8 +23,8 @@ public class StringCompressor
 
     public static void main(String[] args) {
         String input = "aaabbccca";
-        String output = compressString(input);
-        System.out.println("Input String : "+input);
+        String output = Stringcount(input);
+        System.out.println("Input String : " + input);
         System.out.println("Compressed String: " + output);
     }
 }
