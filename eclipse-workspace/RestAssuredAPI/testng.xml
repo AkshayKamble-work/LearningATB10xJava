@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     <class name="codeStudio.PostRequest"/>
+      <class name="codeStudio.PatchRequest"/>
+      <class name="codeStudio.PutRequest"/>
+      <class name="codeStudio.DeleteRequest"/>
+      <class name="httpsRequests.HTTPS_Requests"/>
+      <class name="codeStudio.RestAssuredRequests"/>
+       <class name="codeStudio.ResponseHeader"/>
+   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
