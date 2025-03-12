@@ -5,25 +5,27 @@ import Java.logicalCoding.RepeatedWords;
 import java.util.HashSet;
 // input= HELLO
 // Output=HELO
-public class RemoveDuplicates {
 
-    public static String removeDuplicates(String s) {
-        StringBuilder result = new StringBuilder();
-        HashSet<Character> seen = new HashSet<>();
+public static String removeDuplicates(String s) {
+    StringBuilder result = new StringBuilder();
+    HashSet seen = new HashSet();
+    for (char ch : s.toCharArray()) {
+        if (!seen.contains(ch)) {
+            seen.add(ch);
+            result.append(ch);
 
-        for (char ch : s.toCharArray()) {
-            if (!seen.contains(ch)) {
-                seen.add(ch);
-                result.append(ch);
-            }
         }
 
-        return result.toString();
     }
+    return result.toString();
 
-    public static void main(String[] args) {
-        String input = "Hello";
-        System.out.println(removeDuplicates(input)); // Output: Helo
-
-    }
 }
+public static void main(String[] args)
+    {
+        String input="HELLO";
+        System.out.println(removeDuplicates(input));
+
+}
+
+
+}*/
