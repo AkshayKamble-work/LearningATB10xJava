@@ -13,12 +13,9 @@ public static String removeDuplicates(String s) {
         if (!seen.contains(ch)) {
             seen.add(ch);
             result.append(ch);
-
         }
-
     }
     return result.toString();
-
 }
 public static void main(String[] args)
     {
