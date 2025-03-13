@@ -11,6 +11,6 @@ public class ExampleFinal {
 
     public static void main(String[] args) {
         ExampleFinal ex=new ExampleFinal();
-        ex.changeValue();// throw the error beacause we can not change the value of final keyword
+        //ex.changeValue();// throw the error beacause we can not change the value of final keyword
     }
 }
